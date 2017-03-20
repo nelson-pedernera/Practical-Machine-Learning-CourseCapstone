@@ -10,8 +10,9 @@ One thing that people regularly do is quantify how much of a particular activity
 
 ### Import the data
 Firstly, The necessary R packages are loaded and then, the training and testing data set are downloaded from the web locations.
-library(caret)
 ```r
+library(caret)
+
 setwd(
   "D:/pentaho/design-tools/aggregation-designer/Aggregation Designer.app/Contents/MacOS/WinSCP/Extensions/MySQL/"
 )
